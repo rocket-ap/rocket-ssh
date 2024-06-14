@@ -176,7 +176,7 @@ copyPanelRepo(){
         rm -rf /var/www/html/account
     fi
 
-   link=https://github.com/rocket-ap/rocket-ssh/raw/master/app.zip
+   link=https://raw.githubusercontent.com/rocket-ap/rocket-ssh/main/app.zip
 
     if [[ -n "$link" ]]; then
         rm -fr /var/www/html/update.zip
